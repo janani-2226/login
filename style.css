@@ -1,0 +1,81 @@
+ /* .background{
+    height: 100vh;
+   background-image: url("bg_pic.jpeg");
+   background-size: contain;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.bottomborder{
+    border-top: 1px solid black ;
+    text-align: center;
+    margin: 15px;
+}
+.bottomborder p{
+    transform: translateY(-60%);
+    display: inline-block;
+    margin: 0;
+    background: #fff;
+    padding: 0 .5em;
+}
+.google{
+    background-color: white;
+    border-color: red;
+    color: red;
+    padding: 0 20px 0 20px;
+}
+.facebook{
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    padding: 0 20px 0 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.submit{
+    width: 100%;
+}
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    bottom: 20%;
+    left: 10%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.left{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 400px;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 20px;
+}
+.right img{
+    height: 100%;
+}  */
+.signin{
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+    padding:65px;
+    width: 50%;
+    transform: translateX(37.5%);
+} 
+.signinbg{
+    background-image: url("Background_ppt_pastel.jpeg");
+    height: 100vh;
+    background-size:contain ;
+    
+}
+.invalid{
+    display: none;
+}
