@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="signinbg">
+        <div class="signin">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <label for="inputfirstname" class="form-label">FirstName</label>
+                    <input type="text" class="form-control" id="inputfirstname" onchange="getfname(event)">
+                    <span class="invalid">invalid</span>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputlastname" class="form-label">LastName</label>
+                    <input type="text" class="form-control" id="inputlastname" onchange="getlname(event)">
+                    <span class="invalid">invalid</span>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" onchange="getemail(event)"
+                        placeholder="abc@gmail.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" onchange="getpassword(event)">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputreenterpassword" class="form-label">Re-enter Password</label>
+                    <input type="password" class="form-control" id="inputreenterpassword"
+                        onchange="getrepassword(event)">
+                </div>
+                <div class="col-12">
+                    <label for="inputphonenumber" class="form-label">Phone number</label>
+                    <input type="number" class="form-control" id="inputphonenumber" placeholder="1234"
+                        onchange="getphonenumber(event)">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" onclick="enter()">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>

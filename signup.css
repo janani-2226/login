@@ -1,0 +1,22 @@
+.signin {
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+    padding: 65px;
+    width: 50%;
+    transform: translateX(37.5%);
+}
+
+.signinbg {
+    background-image: url("Background_ppt_pastel.jpeg");
+    height: 100vh;
+    background-size: contain;
+
+}
+
+.invalid {
+    display: none;
+}
